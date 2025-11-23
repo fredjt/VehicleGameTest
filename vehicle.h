@@ -22,7 +22,7 @@ public:
     static std::string getTrim() { return trim_; }
 };
 
-class VehicleComponent : public Object {};
+class VehicleComponent {};
 
 class Engine : VehicleComponent
 {
